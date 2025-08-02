@@ -1,4 +1,4 @@
-package com.example.tinder_ai_backend.conversations;
+package io.javabrains.tinderaibackend.conversations;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 

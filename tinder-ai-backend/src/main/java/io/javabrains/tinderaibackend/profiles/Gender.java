@@ -1,4 +1,4 @@
-package com.example.tinder_ai_backend.profiles;
+package io.javabrains.tinderaibackend.profiles;
 
 public enum Gender {
     MALE,
