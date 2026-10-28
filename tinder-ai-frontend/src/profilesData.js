@@ -1,0 +1,222 @@
+export const MOCK_PROFILES = [
+  {
+    "id": "a4e6d728-17e2-48ca-ba4c-6b980dee7001",
+    "firstName": "Maya",
+    "lastName": "Smith",
+    "age": 25,
+    "ethnicity": "Black",
+    "gender": "FEMALE",
+    "bio": "Creative soul with a love for music and art. Enjoys outdoor activities and spontaneous road trips. Looking for someone to share life's beautiful moments.",
+    "imageUrl": "a4e6d728-17e2-48ca-ba4c-6b980dee7001.jpg",
+    "myersBriggsPersonalityType": "INFP"
+  },
+  {
+    "id": "11d7f6dc-3164-4e1f-890f-f6e10c031d5d",
+    "firstName": "Zara",
+    "lastName": "Adams",
+    "age": 29,
+    "ethnicity": "Black",
+    "gender": "FEMALE",
+    "bio": "Entrepreneur and coffee aficionado. Love brainstorming new ideas and making dreams come true. Let's build something great together.",
+    "imageUrl": "11d7f6dc-3164-4e1f-890f-f6e10c031d5d.jpg",
+    "myersBriggsPersonalityType": "ENTP"
+  },
+  {
+    "id": "0fe03317-b149-4a06-ab59-c5bff50af7bb",
+    "firstName": "Lily",
+    "lastName": "Chen",
+    "age": 23,
+    "ethnicity": "Asian",
+    "gender": "FEMALE",
+    "bio": "Artist and gamer. Enjoys painting, video games, and exploring new tech. Looking for someone who shares my passions.",
+    "imageUrl": "0fe03317-b149-4a06-ab59-c5bff50af7bb.jpg",
+    "myersBriggsPersonalityType": "INTP"
+  },
+  {
+    "id": "10e1b8c7-c47c-43c9-a127-c52fc827bb2a",
+    "firstName": "Ava",
+    "lastName": "Martin",
+    "age": 34,
+    "ethnicity": "White",
+    "gender": "FEMALE",
+    "bio": "Chef and food lover. Enjoys creating delicious dishes and trying new recipes. Seeking someone who appreciates good food and great company.",
+    "imageUrl": "10e1b8c7-c47c-43c9-a127-c52fc827bb2a.jpg",
+    "myersBriggsPersonalityType": "ISFP"
+  },
+  {
+    "id": "19b623c8-c187-4464-a934-4af83d0c299b",
+    "firstName": "Chloe",
+    "lastName": "Robinson",
+    "age": 22,
+    "ethnicity": "Black",
+    "gender": "FEMALE",
+    "bio": "Fashion designer with a flair for creativity. Loves to travel and find inspiration in new places. Let's make a stylish statement together.",
+    "imageUrl": "19b623c8-c187-4464-a934-4af83d0c299b.jpg",
+    "myersBriggsPersonalityType": "ESTP"
+  },
+  {
+    "id": "060a0b27-ec59-4a99-b4cb-234ffe0d1e1d",
+    "firstName": "Camila",
+    "lastName": "Torres",
+    "age": 35,
+    "ethnicity": "Hispanic",
+    "gender": "FEMALE",
+    "bio": "Photographer and nature enthusiast. Enjoys capturing the beauty of the world and spending time outdoors. Let's explore and create together.",
+    "imageUrl": "060a0b27-ec59-4a99-b4cb-234ffe0d1e1d.jpg",
+    "myersBriggsPersonalityType": "ISFP"
+  },
+  {
+    "id": "0f441dc5-9ece-4022-9e2b-f8a9ec5d83c0",
+    "firstName": "Neha",
+    "lastName": "Sharma",
+    "age": 28,
+    "ethnicity": "Indian",
+    "gender": "FEMALE",
+    "bio": "Marketing professional with a passion for creativity. Enjoys exploring new trends and ideas. Let's make a mark together.",
+    "imageUrl": "0f441dc5-9ece-4022-9e2b-f8a9ec5d83c0.jpg",
+    "myersBriggsPersonalityType": "ENFP"
+  },
+  {
+    "id": "a5311a12-1b86-4a29-86e8-3ea35ba82a83",
+    "firstName": "Lucia",
+    "lastName": "Morales",
+    "age": 32,
+    "ethnicity": "Hispanic",
+    "gender": "FEMALE",
+    "bio": "Therapist and listener. Passionate about helping others and making a difference. Looking for someone kind and compassionate.",
+    "imageUrl": "a5311a12-1b86-4a29-86e8-3ea35ba82a83.jpg",
+    "myersBriggsPersonalityType": "ISFJ"
+  },
+  {
+    "id": "a7911854-a8e0-405f-84f5-0b03a70f90d8",
+    "firstName": "Maria",
+    "lastName": "Fernandez",
+    "age": 26,
+    "ethnicity": "Hispanic",
+    "gender": "FEMALE",
+    "bio": "Dancer and choreographer. Loves dancing, traveling, and experiencing new cultures. Looking for someone who can keep up with my rhythm.",
+    "imageUrl": "a7911854-a8e0-405f-84f5-0b03a70f90d8.jpg",
+    "myersBriggsPersonalityType": "ESFP"
+  },
+  {
+    "id": "0b1273d4-ab2f-4edd-858b-6f1ff1071fb9",
+    "firstName": "Simone",
+    "lastName": "Jackson",
+    "age": 27,
+    "ethnicity": "Black",
+    "gender": "FEMALE",
+    "bio": "Chef and food critic. Passionate about cooking and discovering new restaurants. Seeking someone who loves good food and great conversations.",
+    "imageUrl": "0b1273d4-ab2f-4edd-858b-6f1ff1071fb9.jpg",
+    "myersBriggsPersonalityType": "ENTP"
+  },
+  {
+    "id": "07fb670f-f051-43d2-a0e7-227ae8ba2fa4",
+    "firstName": "Ming",
+    "lastName": "Liu",
+    "age": 30,
+    "ethnicity": "Asian",
+    "gender": "FEMALE",
+    "bio": "Research scientist with a passion for discovery. Enjoys solving complex problems and exploring the unknown. Looking for someone curious and intelligent.",
+    "imageUrl": "07fb670f-f051-43d2-a0e7-227ae8ba2fa4.jpg",
+    "myersBriggsPersonalityType": "INTP"
+  },
+  {
+    "id": "aa81076b-9a44-469f-a397-fd23c37c1666",
+    "firstName": "Emma",
+    "lastName": "Baker",
+    "age": 25,
+    "ethnicity": "White",
+    "gender": "FEMALE",
+    "bio": "Nurse and caregiver. Passionate about helping others and making a difference. Looking for someone who values kindness and compassion.",
+    "imageUrl": "aa81076b-9a44-469f-a397-fd23c37c1666.jpg",
+    "myersBriggsPersonalityType": "ISFJ"
+  },
+  {
+    "id": "018aafd0-6a0d-4f38-b2ca-45c0c9b13fa2",
+    "firstName": "Diya",
+    "lastName": "Nair",
+    "age": 24,
+    "ethnicity": "Indian",
+    "gender": "FEMALE",
+    "bio": "Student and aspiring doctor. Passionate about medicine and helping others. Seeking someone who shares my dedication to making a difference.",
+    "imageUrl": "018aafd0-6a0d-4f38-b2ca-45c0c9b13fa2.jpg",
+    "myersBriggsPersonalityType": "ISTJ"
+  },
+  {
+    "id": "0eaa5932-be8c-48b0-b2b1-8dfe41002995",
+    "firstName": "Alexa",
+    "lastName": "Rivera",
+    "age": 24,
+    "ethnicity": "Hispanic",
+    "gender": "FEMALE",
+    "bio": "Marketing specialist and social media enthusiast. Loves connecting with people and creating engaging content. Let's make a difference together.",
+    "imageUrl": "0eaa5932-be8c-48b0-b2b1-8dfe41002995.jpg",
+    "myersBriggsPersonalityType": "ESFJ"
+  },
+  {
+    "id": "a37d947a-910c-481c-9acb-21cd0a1e3fd7",
+    "firstName": "Clara",
+    "lastName": "Peterson",
+    "age": 27,
+    "ethnicity": "White",
+    "gender": "FEMALE",
+    "bio": "Writer and bookworm. Loves crafting stories and getting lost in a good book. Seeking someone who appreciates the magic of words.",
+    "imageUrl": "a37d947a-910c-481c-9acb-21cd0a1e3fd7.jpg",
+    "myersBriggsPersonalityType": "INFP"
+  },
+  {
+    "id": "06fe0dc9-0915-4ede-9674-db77e54540e8",
+    "firstName": "Nia",
+    "lastName": "Roberts",
+    "age": 26,
+    "ethnicity": "Black",
+    "gender": "FEMALE",
+    "bio": "Teacher and mentor. Passionate about educating and inspiring others. Seeking someone who values learning and growth.",
+    "imageUrl": "06fe0dc9-0915-4ede-9674-db77e54540e8.jpg",
+    "myersBriggsPersonalityType": "ESFJ"
+  },
+  {
+    "id": "aaae796b-f1f9-4d9c-b278-ecbdab5337ac",
+    "firstName": "Pooja",
+    "lastName": "Shah",
+    "age": 25,
+    "ethnicity": "Indian",
+    "gender": "FEMALE",
+    "bio": "Entrepreneur and innovator. Passionate about starting new ventures and making a difference. Looking for someone who shares my drive and ambition.",
+    "imageUrl": "aaae796b-f1f9-4d9c-b278-ecbdab5337ac.jpg",
+    "myersBriggsPersonalityType": "ENTJ"
+  },
+  {
+    "id": "182ce9d7-f65c-4754-8340-8090f383f535",
+    "firstName": "Samantha",
+    "lastName": "Brown",
+    "age": 28,
+    "ethnicity": "White",
+    "gender": "FEMALE",
+    "bio": "Veterinary technician with a love for animals. Enjoys volunteering at shelters and hiking with my dog. Looking for an animal lover.",
+    "imageUrl": "182ce9d7-f65c-4754-8340-8090f383f535.jpg",
+    "myersBriggsPersonalityType": "ISFJ"
+  },
+  {
+    "id": "05e57563-fed2-4eec-beaf-9730efd9a1f7",
+    "firstName": "Jade",
+    "lastName": "Davis",
+    "age": 26,
+    "ethnicity": "Black",
+    "gender": "FEMALE",
+    "bio": "Fashion designer and trendsetter. Passionate about creating unique styles and fashion statements. Let's make the world our runway.",
+    "imageUrl": "05e57563-fed2-4eec-beaf-9730efd9a1f7.jpg",
+    "myersBriggsPersonalityType": "ESFP"
+  },
+  {
+    "id": "03832a33-c83f-4366-ba73-deab17a8a535",
+    "firstName": "Harper",
+    "lastName": "Nguyen",
+    "age": 30,
+    "ethnicity": "Asian",
+    "gender": "FEMALE",
+    "bio": "Screenwriter and film enthusiast. Loves crafting stories for the screen and watching movies. Seeking someone who shares my love for cinema.",
+    "imageUrl": "03832a33-c83f-4366-ba73-deab17a8a535.jpg",
+    "myersBriggsPersonalityType": "INFP"
+  }
+];
